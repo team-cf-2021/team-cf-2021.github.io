@@ -10,9 +10,9 @@ import {
   Route
 } from 'react-router-dom';
 
-import AboutUs from './Components/AboutUs.js'
+// import AboutUs from './Components/AboutUs.js'
+// import OurSponsor from './Components/OurSponsor.js'
 import Home from './Components/Home.js'
-import OurSponsor from './Components/OurSponsor.js'
 
 function App() {
   return (

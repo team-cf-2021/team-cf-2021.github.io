@@ -36,3 +36,56 @@
     transform: rotate(360deg);
   }
 }
+
+/* Home */
+.Home {
+  /* margin: 150px; */
+}
+
+/* About Us */
+.AboutUs {
+  /* margin: 75px; */
+}
+
+.Landing {
+  margin: 125px 50px 125px 50px;
+}
+
+#landing-img {
+  border-style: solid;
+  border-width: 15px;
+}
+
+#landing-txt {
+  font-size: 75px;
+  font-weight: bold;
+  text-align: left;
+}
+
+#bio-txt {
+  text-align: left;
+}
+
+#ncdi-txt {
+  font-size: 25px;
+  margin: 150px 50px 150px 50px;
+  text-align: left;
+}
+
+@media (max-width: 1000px) {
+  #landing-txt {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 800px) {
+  #landing-txt {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  #landing-txt {
+    font-size: 25px;
+  }
+}

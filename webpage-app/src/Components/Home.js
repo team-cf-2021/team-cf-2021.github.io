@@ -1,12 +1,17 @@
 import React from 'react';
+import AboutUs from './AboutUs.js'
+import OurSponsor from './OurSponsor.js'
+import Landing from './Landing.js'
+import { Container } from 'react-bootstrap'
 
-
-function Home() {
+const Home = () => {
 
     return (
-        <div>
-            Content
-        </div>
+        <Container className='Home'>
+            <Landing/>
+            <AboutUs/>
+            <OurSponsor/>
+        </Container>
         
     );
 }
