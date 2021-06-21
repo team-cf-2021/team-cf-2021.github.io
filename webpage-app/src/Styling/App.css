@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -37,17 +37,55 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+#about h1 {
+  font-weight: bold;
+}
+
+/* Header */
+.navbar {
+  background-color: #242e54;
+}
+
+#navbar-brand {
+  color: white;
+  font-weight: bolder;
+}
+
+#nav-link, #footer a {
+  color: white;
+  opacity: 75%;
+}
+
+#nav-link:hover, #footer a:hover {
+  color: white;
+  font-weight: bolder;
+  opacity: 100%;
+  transition:.5s;
+}
+
 /* Home */
-.Home {
+#home {
   /* margin: 150px; */
 }
 
-/* About Us */
-.AboutUs {
-  /* margin: 75px; */
+/* About */
+#about {
+  margin: 150px 0px 150px 0px;
 }
 
-.Landing {
+#member-row {
+  margin: 100px 0px 100px 0px;
+}
+
+#member-img {
+  justify-content: center;
+}
+
+#landing {
   margin: 125px 50px 125px 50px;
 }
 
@@ -59,17 +97,47 @@
 #landing-txt {
   font-size: 75px;
   font-weight: bold;
-  text-align: left;
 }
 
-#bio-txt {
-  text-align: left;
-}
-
-#ncdi-txt {
+#project-txt {
   font-size: 25px;
   margin: 150px 50px 150px 50px;
-  text-align: left;
+}
+
+/* Footer */
+#card {
+  border: none;
+}
+
+#footer {
+  padding: 25px;
+  background-color: #242e54;
+  color: white;
+}
+
+#footer p {
+  font-size: 14px;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+.line-animation {
+  width: 100%;
+  display: inline-block;
+  height: 4px;
+  background-color: #242e54;
 }
 
 @media (max-width: 1000px) {

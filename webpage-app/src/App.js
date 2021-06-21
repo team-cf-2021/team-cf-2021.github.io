@@ -19,11 +19,10 @@ function App() {
     <Router>
       <div className='App'>
         <Header/>
-            
         <Switch>
-          {/* <Route path='/about-us' component={AboutUs} /> */}
-          {/* <Route path='/our-sponsor' component={OurSponsor} /> */}
-          <Route path='/' component={() => <Home />} />
+            {/* <Route path='/about-us' component={About} /> */}
+            {/* <Route path='/our-sponsor' component={Sponsor} /> */}
+            <Route path='/' component={() => <Home />} />
         </Switch>
         <Footer/>
       </div>

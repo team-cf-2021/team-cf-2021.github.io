@@ -1,42 +1,27 @@
 import React from 'react'
-import { Row, Col, Card } from 'react-bootstrap'
+import { Row, Col } from 'react-bootstrap'
 
 
 const Footer = () => {
     return (
-        <div>
-        <Row>
-            <Col>
-                <Card>
-                    <Card.Body>
-                        <Card.Title>Territorial Acknowledgement</Card.Title>
-                        <Card.Text>
-                            <p>
-                                We are respectfully acknowledging the traditional, unceded lands we live on:
-                                the Lekwungen territories of the Esquimalt and Songhees Nations, and W̱SÁNEĆ territories 
-                                of the Tsartlip, Tseycum and Tsawout Nations.
-                                We express our gratitude to have the opportunity to pursue our studies and to live on their territories.
-                            </p>
-                            
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-            </Col>
-            <Col>
-                <Card>
-                    <Card.Body>
-                        <Card.Title>Thank you to our sponsors and instructors</Card.Title>
-                        <Card.Text>
-                            <p>
-                                Our team would like to thank Robert McMynn, Manjot Singh, and Julianne Johnson at Checkfront for giving 
-                                us the opportunity to work on this project. We also thank the ICS Department Chair, Saryta Schaerer, 
-                                and our instructors, Katie Tanigawa, Jonas Bambi, and Ben Leather for supporting us throughout this project. 
-                            </p>
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
+        <div id='footer'>
+            <Row>
+                <Col>
+                    <h5>Territorial Acknowledgement</h5>
+                    <p>
+                        We are respectfully acknowledging the traditional, unceded lands we live on:
+                        the Lekwungen territories of the Esquimalt and Songhees Nations, and W̱SÁNEĆ territories 
+                        of the Tsartlip, Tseycum and Tsawout Nations.
+                        We express our gratitude to have the opportunity to pursue our studies and to live on their territories.
+                    </p>
                 </Col>
-        </Row>
+                <Col>
+                    <h5>Links</h5>
+                    <p><a href='https://www.checkfront.com/'>Checkfront</a></p>
+                    <p><a href='https://camosun.ca/'>Camosun College</a></p>
+                    <p><a href='http://capstone.camosun.bc.ca/'>Capstone Projects</a></p>
+                </Col>
+            </Row>
         </div>
     );
 }
