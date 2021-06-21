@@ -21,8 +21,8 @@ function App() {
         <Header/>
             
         <Switch>
-          {/* <Route path='/about-us' component={AboutUs} /> */}
-          {/* <Route path='/our-sponsor' component={OurSponsor} /> */}
+          {/* <Route path='/about-us' component={About} /> */}
+          {/* <Route path='/our-sponsor' component={Sponsor} /> */}
           <Route path='/' component={() => <Home />} />
         </Switch>
         <Footer/>

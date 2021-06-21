@@ -9,10 +9,11 @@ const Header = () => {
                 <Navbar.Brand href="/">Team Checkfront</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto">
+                    <Nav className="me-auto">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="#AboutUs">About Us</Nav.Link>
-                        <Nav.Link href="#OurSponsor">Our Sponsor</Nav.Link>
+                        <Nav.Link href="#Project">Project</Nav.Link>
+                        <Nav.Link href="#About">About</Nav.Link>
+                        <Nav.Link href="#Sponsor">Sponsor</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
