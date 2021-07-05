@@ -9,7 +9,7 @@ const Footer = () => {
                 <Col>
                     <h5>Territorial Acknowledgement</h5>
                     <p>
-                        We are respectfully acknowledging the traditional, unceded lands we live on:
+                        We are respectfully acknowledging the traditional lands we live on:
                         the Lekwungen territories of the Esquimalt and Songhees Nations, and W̱SÁNEĆ territories 
                         of the Tsartlip, Tseycum and Tsawout Nations.
                         We express our gratitude to have the opportunity to pursue our studies and to live on their territories.

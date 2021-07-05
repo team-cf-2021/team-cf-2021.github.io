@@ -41,8 +41,8 @@ html {
   scroll-behavior: smooth;
 }
 
-#about h1 {
-  font-weight: bold;
+#content h1, #content h4 {
+  font-weight: bolder;
 }
 
 /* Header */
@@ -67,13 +67,16 @@ html {
   transition:.5s;
 }
 
-/* Home */
-#home {
-  /* margin: 150px; */
-}
-
 /* About */
 #about {
+  margin: 150px 0px 150px 0px;
+}
+/* About */
+#content {
+  margin: 150px 0px 150px 0px;
+}
+
+#about-content{
   margin: 150px 0px 150px 0px;
 }
 
@@ -99,7 +102,7 @@ html {
   font-weight: bold;
 }
 
-#project-txt {
+#big-txt {
   font-size: 25px;
   margin: 150px 50px 150px 50px;
 }

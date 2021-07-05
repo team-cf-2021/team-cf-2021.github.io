@@ -1,8 +1,6 @@
 import './Styling/App.css'
 import Header from './Components/Header.js'
 import Footer from './Components/Footer.js'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap';
 
 import {
   BrowserRouter as Router,
@@ -10,7 +8,7 @@ import {
   Route
 } from 'react-router-dom';
 
-// import AboutUs from './Components/AboutUs.js'
+import Project from './Components/Project.js'
 // import OurSponsor from './Components/OurSponsor.js'
 import Home from './Components/Home.js'
 
@@ -20,7 +18,7 @@ function App() {
       <div className='App'>
         <Header/>
         <Switch>
-            {/* <Route path='/about-us' component={About} /> */}
+            <Route path='/project' component={Project} />
             {/* <Route path='/our-sponsor' component={Sponsor} /> */}
             <Route path='/' component={() => <Home />} />
         </Switch>
