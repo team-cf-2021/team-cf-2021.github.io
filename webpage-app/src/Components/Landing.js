@@ -8,7 +8,7 @@ const Landing = () => {
             <FadeInSection>
                 <Row>
                     <Col fluid>
-                        <Image id='landing-img' width='100%' src='../Images/scrn-import-csv.png' fluid />
+                        <Image id='landing-img' width='100%' src='../Images/login.png' fluid />
                     </Col>
                     <Col fluid>
                         <p id='landing-txt'>New Customer Data Importer 2.0</p>

@@ -41,13 +41,10 @@ html {
   scroll-behavior: smooth;
 }
 
-#content h1, #content h4 {
-  font-weight: bolder;
-}
-
 /* Header */
 .navbar {
   background-color: #242e54;
+  color: white;
 }
 
 #navbar-brand {
@@ -72,16 +69,16 @@ html {
   margin: 150px 0px 150px 0px;
 }
 /* About */
-#content {
+.content {
   margin: 150px 0px 150px 0px;
 }
-
-#about-content{
-  margin: 150px 0px 150px 0px;
+.content h1, .content h4 {
+  font-weight: bolder;
 }
 
-#member-row {
+#content-row {
   margin: 100px 0px 100px 0px;
+  font-size: 20px;
 }
 
 #member-img {
@@ -104,7 +101,13 @@ html {
 
 #big-txt {
   font-size: 25px;
-  margin: 150px 50px 150px 50px;
+  margin: 100px 50px 100px 50px;
+}
+
+#col-img {
+  border-style: solid;
+  border-width: 5px;
+  width: 75%;
 }
 
 /* Footer */
@@ -167,10 +170,16 @@ html {
   #landing-txt {
     font-size: 30px;
   }
+  #big-txt {
+    margin: 150px 25px 150px 25px;
+  }
 }
 
 @media (max-width: 480px) {
   #landing-txt {
     font-size: 25px;
+  }
+  #big-txt {
+    margin: 50px 5px 50px 5px;
   }
 }
