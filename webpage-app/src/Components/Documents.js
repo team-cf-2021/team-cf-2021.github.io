@@ -42,9 +42,11 @@ const Documents = (props) => {
             <div id='content-row'>
                  <Row>
                     <Col lg={6}>
-                        Our team is required to submit a weekly status report to our instructors at Camosun College every week.
-                        These reports documented our project progress throughout the semester and ensured that our team stayed on 
-                        track to complete the project by the estimated deadline.
+                        <p>
+                            Our team is required to submit a weekly status report to our instructors at Camosun College every week.
+                            These reports documented our project progress throughout the semester and ensured that our team stayed on 
+                            track to complete the project by the estimated deadline.
+                        </p><br/>
                     </Col>
                     <Col lg={6}>
                         <ListGroup>

@@ -16,6 +16,7 @@ const Sponsor = () => {
                     Our primary contacts are with their Implementation Specialist, QA Automation Developer, 
                     and Sr. Customer Success Manager.
                 </p>
+                <br/>
                 </Col>
                 <Col lg={6}>
                     <Image width='auto' src='../Images/Checkfront_Color.png' fluid />

@@ -49,6 +49,7 @@ const Project = () => {
                     <li>Add the ability to re-import bookings and remap the data.</li>
                     <li>Add guest information import functionality.</li>
                 </ul>
+                <br/>
             </Col>
             <Col lg={6}>
                 <Image id='col-img' width='100%' src='../Images/importcsv.png' fluid />
