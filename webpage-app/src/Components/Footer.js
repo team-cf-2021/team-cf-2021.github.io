@@ -22,6 +22,9 @@ const Footer = () => {
                     <p><a href='http://capstone.camosun.bc.ca/'>Capstone Projects</a></p>
                 </Col>
             </Row>
+            <Row>
+                <Col><p className='text-center'>&copy; {new Date().getFullYear()}: Team Checkfront</p></Col>
+            </Row>
         </div>
     );
 }
