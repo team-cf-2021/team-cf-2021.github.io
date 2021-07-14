@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col, Container, Image } from 'react-bootstrap'
+import { Row, Col, Container, Image, Carousel } from 'react-bootstrap'
 import FadeInSection from './FadeInSection'
 
 const Project = () => {  
@@ -55,7 +55,6 @@ const Project = () => {
                 <Image id='col-img' width='100%' src='../Images/menu.png' fluid />
             </Col>
         </Row>
-        
         </>
     )
 
@@ -74,6 +73,30 @@ const Project = () => {
         </p>
         </div>
     )
+
+    const featuresTxt = () => (
+        <>
+            <Row>
+                <Col id='features-col'>
+                    <Image src='../Images/import-bookings.png' id='col-img' fluid /> 
+                    <p />
+                    Import CSV files of bookings, gift certificates, and guest information.
+                </Col>
+                <Col id='features-col'>
+                    <Image src='../Images/map-items.png' id='col-img' fluid />  
+                    <p />
+                    Map items using the dropdown menus.
+                </Col>
+                <Col id='features-col'>
+                    <Image src='../Images/duplicate-bookings.png' id='col-img' fluid />  
+                    <p />
+                    Option of removing duplicate bookings before importing.
+                </Col>            
+            </Row>                
+
+        </>
+
+    )
     
     const projectContent = [
         {
@@ -91,6 +114,10 @@ const Project = () => {
         {
             title: 'Logistics',
             content: logisticsTxt()
+        },
+        {
+            title: 'Features',
+            content: featuresTxt()
         },
     ]
     

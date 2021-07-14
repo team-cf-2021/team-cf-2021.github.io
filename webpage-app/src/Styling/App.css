@@ -159,6 +159,16 @@ html {
   visibility: visible;
 }
 
+#features-col {
+  align-content: center;
+  text-align: center;
+}
+
+#features-col > #col-img {
+  border-style: solid;
+  border-width: 5px;
+  width: 100%;
+}
 
 @media (max-width: 1000px) {
   #landing-txt {
