@@ -52,7 +52,7 @@ const Project = () => {
                 <br/>
             </Col>
             <Col lg={6}>
-                <Image id='col-img' width='100%' src='../Images/importcsv.png' fluid />
+                <Image id='col-img' width='100%' src='../Images/menu.png' fluid />
             </Col>
         </Row>
         
