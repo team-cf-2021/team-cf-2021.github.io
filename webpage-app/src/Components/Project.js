@@ -1,6 +1,5 @@
 import React from 'react'
 import { Row, Col, Container, Image, Carousel } from 'react-bootstrap'
-import FadeInSection from './FadeInSection'
 
 const Project = () => {  
 
@@ -135,9 +134,7 @@ const Project = () => {
     
     const projectContentArray = projectContent.map((data) => {
         return(
-            <FadeInSection>
-                <ProjectContent title={data.title} content={data.content} />
-            </FadeInSection>
+            <ProjectContent title={data.title} content={data.content} />
         )
     })
 

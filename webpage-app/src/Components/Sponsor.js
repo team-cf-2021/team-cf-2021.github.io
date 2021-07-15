@@ -1,6 +1,5 @@
 import React from 'react'
 import { Row, Col, Container, Image } from 'react-bootstrap'
-import FadeInSection from './FadeInSection'
 
 const Sponsor = () => {    
 
@@ -49,9 +48,7 @@ const Sponsor = () => {
     
     const sponsorContentArray = sponsorContent.map((data) => {
         return(
-            <FadeInSection>
-                <SponsorContent title={data.title} content={data.content} />
-            </FadeInSection>
+            <SponsorContent title={data.title} content={data.content} />
         )
     })
 

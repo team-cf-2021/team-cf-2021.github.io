@@ -9,13 +9,25 @@ import Documents from './Documents.js';
 
 const Home = () => {
 
+    const contentArray = [
+        <Landing />,
+        <Project />,
+        <Sponsor />,
+        <Documents />,
+        <Team />,
+    ]
+
+    const Content = () => {
+        const items = [];
+        for (const item of contentArray) {
+            items.push(<FadeInSection>{item}</FadeInSection>)
+        }
+        return items;
+    }
+
     return (
         <Container id='home'>
-            <Landing />
-            <Project />
-            <Sponsor />
-            <Documents />
-            <Team />
+            <Content />
         </Container>
     );
 }

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Row, Col, Container, Image } from 'react-bootstrap'
-import FadeInSection from './FadeInSection'
 
 const Team = () => {
 
@@ -61,9 +60,7 @@ const Team = () => {
 
     const teamMembersArray = teamMembers.map((teamMember) => {
         return(
-            <FadeInSection>
-                <TeamMember name={teamMember.name} photo={teamMember.photo} roles={teamMember.roles} bio={teamMember.bio} />
-            </FadeInSection>
+            <TeamMember name={teamMember.name} photo={teamMember.photo} roles={teamMember.roles} bio={teamMember.bio} />
         )
     })
 
@@ -76,16 +73,14 @@ const Team = () => {
             {teamMembersArray}
 
         <div id='big-txt'>
-            <FadeInSection>
-                <h1>Thank you to our sponsors and instructors</h1>
-                <span class='line-animation' />
-                <br/>
-                <br/>
-                <p>Our team would like to thank Robert McMynn, Manjot Singh, and Julianne Johnson at Checkfront for giving us 
-                    the opportunity to work on this project. We also thank the ICS Department Chair, Saryta Schaerer, and our 
-                    instructors, Katie Tanigawa, Jonas Bambi, and Ben Leather for supporting us throughout this project.
-                </p>
-            </FadeInSection>
+            <h1>Thank you to our sponsors and instructors</h1>
+            <span class='line-animation' />
+            <br/>
+            <br/>
+            <p>Our team would like to thank Robert McMynn, Manjot Singh, and Julianne Johnson at Checkfront for giving us 
+                the opportunity to work on this project. We also thank the ICS Department Chair, Saryta Schaerer, and our 
+                instructors, Katie Tanigawa, Jonas Bambi, and Ben Leather for supporting us throughout this project.
+            </p>
         </div>
         
         </Container>

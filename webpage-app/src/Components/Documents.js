@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import { Row, Col, Container, ListGroup, Accordion, Card, Button } from 'react-bootstrap'
-import FadeInSection from './FadeInSection'
 
 
 const Documents = (props) => {
@@ -27,7 +26,6 @@ const Documents = (props) => {
             <>
             <ListGroup.Item>
                 <FileContent path={file.path} name={file.name} />
-                
             </ListGroup.Item>
             </>
         )
