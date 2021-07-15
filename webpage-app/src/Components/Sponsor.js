@@ -21,9 +21,6 @@ const Sponsor = () => {
                     <Image width='auto' src='../Images/Checkfront_Color.png' fluid />
                 </Col>
             </Row>
-            
-            
-
         </div>
     )
 
