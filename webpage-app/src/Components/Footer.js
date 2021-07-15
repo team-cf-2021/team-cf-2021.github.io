@@ -1,11 +1,14 @@
 import React from 'react'
-import { Row, Col } from 'react-bootstrap'
+import { Row, Col, Image } from 'react-bootstrap'
 
 
 const Footer = () => {
     return (
         <div id='footer'>
             <Row>
+                <Col md className="my-auto text-lg-end text-md-center text-sm-center pb-sm-4">
+                    <Image src='../Images/Camosun_Colour.png' width="180px" />    
+                </Col>
                 <Col>
                     <h5>Territorial Acknowledgement</h5>
                     <p>
@@ -20,7 +23,7 @@ const Footer = () => {
                     <p><a href='https://www.checkfront.com/'>Checkfront</a></p>
                     <p><a href='https://camosun.ca/'>Camosun College</a></p>
                     <p><a href='http://capstone.camosun.bc.ca/'>Capstone Projects</a></p>
-                </Col>
+                </Col>       
             </Row>
             <Row>
                 <Col><p className='text-center'>&copy; {new Date().getFullYear()}: Team Checkfront</p></Col>
