@@ -7,7 +7,7 @@ const Footer = () => {
         <div id='footer'>
             <Row>
                 <Col md className="my-auto text-lg-end text-md-center text-sm-center pb-sm-4">
-                    <Image src='../Images/Camosun_Colour.png' width="180px" />    
+                    <Image src='../Images/Camosun-Logo.png' width="180px" />    
                 </Col>
                 <Col>
                     <h5>Territorial Acknowledgement</h5>
