@@ -100,7 +100,7 @@ html {
 }
 
 #big-txt {
-  font-size: 25px;
+  font-size: 20px;
   margin: 100px 50px 100px 50px;
 }
 
@@ -144,19 +144,6 @@ html {
   display: inline-block;
   height: 4px;
   background-color: #242e54;
-}
-
-.fade-in-section {
-  opacity: 0;
-  transform: translateY(20vh);
-  visibility: hidden;
-  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
-  will-change: opacity, visibility;
-}
-.fade-in-section.is-visible {
-  opacity: 1;
-  transform: none;
-  visibility: visible;
 }
 
 #features-col {

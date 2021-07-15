@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
-import { Row, Col, Container, ListGroup } from 'react-bootstrap'
-import FadeInSection from './FadeInSection'
+import { Row, Col, Container, ListGroup, Accordion, Card, Button } from 'react-bootstrap'
 
 
 const Documents = (props) => {
@@ -27,11 +26,32 @@ const Documents = (props) => {
             <>
             <ListGroup.Item>
                 <FileContent path={file.path} name={file.name} />
-                
             </ListGroup.Item>
             </>
         )
     }); 
+
+    const DocumentList = () => {
+        return (
+            <Accordion>
+                <Card>
+                    <Card.Header>
+                        <Accordion.Toggle as={Button} variant="link" eventKey="0" className="shadow-none">
+                            Weekly Status Reports
+                        </Accordion.Toggle>
+                    </Card.Header>
+                    <Accordion.Collapse eventKey="0">
+                        <Card.Body>
+                            <ListGroup>
+                                {fileContentArray}
+                            </ListGroup>
+                        </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+            </Accordion>
+            
+        );
+    }
 
     return(
         <Container id='documents' className='content'>
@@ -49,10 +69,7 @@ const Documents = (props) => {
                         </p><br/>
                     </Col>
                     <Col lg={6}>
-                        <ListGroup>
-                            {fileContentArray}
-                        </ListGroup>
-                        
+                        <DocumentList/> 
                     </Col>
                 </Row>
             </div>
