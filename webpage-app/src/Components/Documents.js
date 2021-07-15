@@ -38,7 +38,7 @@ const Documents = (props) => {
             <Accordion>
                 <Card>
                     <Card.Header>
-                        <Accordion.Toggle as={Button} variant="link" eventKey="0">
+                        <Accordion.Toggle as={Button} variant="link" eventKey="0" className="shadow-none">
                             Weekly Status Reports
                         </Accordion.Toggle>
                     </Card.Header>
