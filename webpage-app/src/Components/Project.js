@@ -100,7 +100,7 @@ const Project = () => {
             content: situationTxt(),
         },
         {
-            title: 'Parameters',
+            title: 'Deliverables',
             content: parametersTxt(),
         },
         {
