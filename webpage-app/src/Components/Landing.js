@@ -13,7 +13,7 @@ const Landing = () => {
                 </Col>
             </Row>
             <Row id='big-txt'>
-                <p>The New Customer Data Importer (NCDI) 2.0 is an update to an existing tool developed by Team Checkfront. 
+                <p>The New Customer Data Importer (NCDI) 2.0 is an update to an existing tool developed by Team Checkfront, consisting of Dylan Spence, Selina Hashemi, and Seji Sagawa. 
                     NCDI 2.0 expands the functionality and refines the user feedback and error-handling of its former version.</p>
             </Row>
         </Container>

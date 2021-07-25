@@ -10,8 +10,8 @@ const Team = () => {
             roles: ['Back-End Developer', 'Technical Editor'],
             bio: `
                 Dylan is a detail-oriented worker who enjoys the problem solving and logical design aspects of programming. 
-                He has a keen interest in back-end development, including network programming, cloud development, and database 
-                design. He is a quick learner, able to adapt to new environments, and apply new concepts and practices. 
+                He has a keen interest in back-end development, including network programming and cloud development. 
+                He is a quick learner, able to adapt to new environments, and apply new concepts and practices. 
                 After graduation he looks forward to being in a position where he is challenged and can continue to learn 
                 and develop new skills.
             `
