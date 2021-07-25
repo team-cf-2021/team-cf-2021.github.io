@@ -8,11 +8,11 @@ const Sponsor = () => {
             <Row>
                 <Col lg={6}>
                 <p>
-                    Our project sponsor, Checkfront, is a Victoria-based company providing an easy-to-use cloud-based 
+                    Our project sponsor, Checkfront, is a Victoria-based company that provides an easy-to-use cloud-based 
                     booking platform. This platform is an inventory management and booking reservation system that 
                     continuously gains interest from new clients. It is utilized by businesses with schedule-based 
-                    operations who offer services such as tours, events, rentals, and accomodations. 
-                    Our primary contacts are with their Implementation Specialist, QA Automation Developer, 
+                    operations who offer services such as tours, events, rentals, and accommodations. 
+                    Our primary contacts are with their Implementation Specialist, Software Developer, 
                     and Sr. Customer Success Manager.
                 </p>
                 <br/>
